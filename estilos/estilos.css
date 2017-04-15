@@ -1,0 +1,128 @@
+/*Cabecera (#header, #logo)*/
+
+#cabecera
+	{ 
+	border: 1px solid black;
+	height: 50px;
+	background:#005883;
+	}
+
+#cuerpo
+	{	
+	height:700px;
+	background:#F0B429;;
+	border: 1px solid black;
+	}
+
+head
+	{
+	border-color:#000000;
+	}
+
+#entrada
+	{
+	background: #D5CABF;
+	border: 1px solid black;
+	}
+
+
+
+#caja1 {
+	
+  background:#ffffff;
+  border: 1px;
+  border color:#005883;
+  border:1px solid black;
+
+}
+
+#header {
+  height:30px;
+  margin:20px;
+  width:400px;
+  clear: both;
+  position: relative;
+  border:10px solid black;
+
+}
+ 
+#logo {
+  background: transparent url(../logoUNAD.jpg) no-repeat;
+  float: left;
+  margin:left;
+  display: block;
+  text-indent: -999px;
+  height: 0px; 
+  width: 300px;
+  }
+
+div {
+  width: 1050px;
+  border: 10px;
+  color:#000000;
+
+}
+body
+	{
+	margin: 1em;
+	padding: 1em;
+	font-family: Arial;
+	background:#fff; 
+	font-size: 1em;
+	line-height:1em;
+	border-color:#000000;
+    margin:1px 1px 1px 1px;
+	width:800px;
+	height:800px;
+	
+	}
+h1
+	{
+	font-size:1em;
+	margin: 1px 0;
+	text-align: center;
+	font-weight: 10;
+	color:#000000;
+
+	}
+h2
+	{
+	font-size:2em;
+	margin: 2px 0;
+	text-align: center;
+	font-weight: 40;
+	color:#000000;
+}
+   h3
+	{
+	font-size:1.5em;
+	margin: 1px 0;
+	text-align: center;
+	font-weight: 15;
+	color:#000000;
+
+	}
+	
+p
+	{
+	margin: 1em 1;
+	background:#;
+
+	}
+img
+	{
+	max-width: 50%;
+	max-height: 50%;
+	}
+	 
+html{
+margin: 100px;
+}
+
+
+ #piepagina{
+ 	height:60px;
+        margin:5px;  
+	background:#005883o;
+
+ }
