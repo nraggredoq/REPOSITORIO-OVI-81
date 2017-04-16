@@ -57,7 +57,7 @@ head
   }
 
 div {
-  width: 1050px;
+  width: 1000px;
   border: 10px;
   color:#000000;
 
@@ -72,8 +72,8 @@ body
 	line-height:1em;
 	border-color:#000000;
     margin:1px 1px 1px 1px;
-	width:800px;
-	height:800px;
+	width:900px;
+	height:900px;
 	
 	}
 h1
@@ -116,7 +116,7 @@ img
 	}
 	 
 html{
-margin: 1px;
+margin: 15px;
 }
 
 
