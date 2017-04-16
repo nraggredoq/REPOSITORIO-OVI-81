@@ -44,7 +44,42 @@ OVI PARA EL CURSO 301122_81
 
 <article>
 	<header><h2><br>ADMINISTRACION Y SEGURIDAD DE REDES</h2></header><br>
-	<img src="estilos/gatito.jpg" aling="center">
+	<script language="JavaScript1.1">
+var specifyimage=new Array() 
+specifyimage[0]="estilos/imagen1.jpg"
+specifyimage[1]="estilos/imagen2.jpg"
+specifyimage[2]="estilos/imagen3.jpg"
+specifyimage[2]="estilos/imagen4.jpg"
+specifyimage[2]="estilos/imagen5.jpg"
+specifyimage[2]="estilos/imagen6.jpg"
+
+
+var delay=3000 
+var count =1;
+
+var cubeimage=new Array()
+for (i=0;i<specifyimage.length;i++){
+cubeimage[i]=new Image()
+cubeimage[i].src=specifyimage[i]
+}
+
+function movecube(){
+if (window.createPopup)
+cube.filters[0].apply()
+document.images.cube.src=cubeimage[count].src;
+if (window.createPopup)
+cube.filters[0].play()
+count++;
+if (count==cubeimage.length)
+count=0;
+setTimeout("movecube()",delay)
+}
+
+window.onload=new Function("setTimeout('movecube()',delay)")
+</script><img src="" name="cube" border="0" style="filter:progid:DXImageTransform.Microsoft.Stretch(stretchStyle=&#39;PUSH&#39;)" /> 
+
+
+
 
 	
 	<p>Parrafo 1</p>
